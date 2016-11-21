@@ -167,3 +167,31 @@ While this is a Readme, this lesson's playground file contains several function 
 ---
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-functions-readme'>Functions</a> on Learn.co and start learning to code for free.</p>
+
+
+func sayHello () {
+let greeting = "Hello there!"
+print (greeting)
+}
+
+sayHello()
+
+sayHello()
+
+func sayGoodbye() {
+let farewell = "Goodbye, world."
+print(farewell)
+}
+
+sayGoodbye()
+
+func sayHello(name: String) {
+print("Hello \(name), why do you sleep so much?")
+}
+
+sayHello(name: "Mittens")
+
+let dumpsterCat = "Rocky"
+sayHello(name: dumpsterCat)
+
+
